@@ -1,0 +1,38 @@
+.WeatherItem {
+	width: 20%;
+	height: auto;
+	border: 1px solid #eee;
+	box-shadow: 0 1px 8px #eee;
+	border-radius: 10px;
+	padding: 20px 10px;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.TodayWidget h2 {
+	font-weight: 400;
+}
+
+.WeatherImage {
+	justify-self: center;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.WidgetContent p {
+	text-align: center;
+}
+
+.WeatherDescription {
+	font-weight: 700;
+}
+
+@media (max-width: 650px) {
+	.WeatherItem {
+		width: 100%;
+	}
+}
